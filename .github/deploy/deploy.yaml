@@ -1,0 +1,12 @@
+name: Deploy to Neocities
+on: [push]
+jobs:
+  deploy:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: 16
+      - run: npm install -g neocel
+      - run: neocel -t ${{ secrets.9cd4d6838e923f72f379e2cde141fe0f }} -y
