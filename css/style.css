@@ -3,20 +3,20 @@
    "how to change link color." */
 :root {
   --red: #330000;
-  --blue: #33FFFF;
+  --blue: #33ffff;
 }
 body {
   background-color: var(--red);
   color: var(--blue);
-	background-position: top;
-  font-family: "jmh"; 
+  background-position: top;
+  font-family: "jmh";
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
   text-align: center;
 }
 h1 {
-  margin-left: 2%; 
+  margin-left: 2%;
   text-align: left;
 }
 .flex {
@@ -49,7 +49,6 @@ h1 {
   background-color: var(--red);
 }
 
-
 .borderthing {
   border-style: solid;
   height: 49px;
@@ -62,7 +61,7 @@ h1 {
 }
 
 @font-face {
-  font-family: "jmh"; 
+  font-family: "jmh";
   src: url("/fonts/jmh.otf") format("opentype");
 }
 
@@ -84,7 +83,7 @@ h1 {
   text-align: center;
   margin: auto;
   background-color: var(--red);
-  border-width: 1
+  border-width: 1;
 }
 
 a {
@@ -101,9 +100,9 @@ a {
   padding: 20px;
   border-style: solid;
   margin: auto;
-  border-width: medium
+  border-width: medium;
 }
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
